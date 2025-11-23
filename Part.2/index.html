@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Practice Form</title>
+<div class="form-container">
+    <h2>Create Account</h2>
+
+    <form>
+        <div class="row-2">
+            <div class="field">
+                <label>First name *</label>
+                <input type="text" placeholder="enter your first name">
+            </div>
+
+            <div class="field">
+                <label>Last name *</label>
+                <input type="text" placeholder="enter your last name">
+            </div>
+        </div>
+
+        <div class="field">
+            <label>Email *</label>
+            <input type="email" placeholder="enter your email">
+        </div>
+
+        <div class="row-2">
+            <div class="field">
+                <label>Password *</label>
+                <input type="password" placeholder="enter your password">
+            </div>
+
+            <div class="field">
+                <label>Confirm Password *</label>
+                <input type="password" placeholder="enter your password again">
+            </div>
+        </div>
+
+        <div class="field">
+            <label>Gender:</label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Refuse to say
+        </div>
+
+        <div class="field">
+            <label>Hobbies</label><br>
+            <input type="checkbox"> Music
+            <input type="checkbox"> Sports
+            <input type="checkbox"> Travel
+            <input type="checkbox"> Movies
+        </div>
+
+        <div class="field">
+            <label>Source of Income</label><br>
+            <select>
+                <option>Employed</option>
+                <option>Student</option>
+                <option>Business</option>
+                <option>Other</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label>Income</label><br>
+            <input type="range" min="0" max="100">
+            <span>5K</span>
+        </div>
+
+        <div class="field">
+            <label>Upload Profile Picture</label><br>
+            <input type="file">
+        </div>
+
+        <div class="field">
+            <label>Age</label>
+            <input type="number" value="18">
+        </div>
+
+        <div class="field">
+            <label>Bio</label>
+            <textarea rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="create-btn">Create</button>
+
+    </form>
+</div>
